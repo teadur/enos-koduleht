@@ -9,7 +9,10 @@
 
 <body>
 <h1>Vinge koduleht</h1>
-<?php echo "hello world"; ?>
+<?php 
+require 'mysql.php';
+
+?>
 <script src="javascript.js"></script>
 
 <img src="vintage_web_tech.png" alt="Picture ITK timetable not working in Edge Browser" height="400" width="400"></img>
